@@ -5,25 +5,25 @@ let ar = ["Praveen ",21,'bhopal',5.8]
 // }
 
 // push used for adding the element from last element 
-ar.push('India')
-console.log(ar)
+// ar.push('India')
+// console.log(ar)
 
-ar.push('Mp')
-console.log(ar)
+// ar.push('Mp')
+// console.log(ar)
 
 // pop used for removing element from last index
-ar.pop()
-console.log(ar)
-ar.pop()
-console.log(ar)
+// ar.pop()
+// console.log(ar)
+// ar.pop()
+// console.log(ar)
 
 // unshift for adding value from start index
-ar.unshift('101','PP')
-console.log(ar)
+// ar.unshift('101','PP')
+// console.log(ar)
 // shif used for removing element from starting index
 
-ar.shift()
-console.log(ar)
+// ar.shift()
+// console.log(ar)
 
 // slice is used for fetching elements from any to index to that index we want 
 
@@ -32,8 +32,8 @@ console.log(a)
 
 // splice is used for removing element from middle of array
 let ar11 = ["Praveen ",21,'bhopal',5.8]
-// ar11.splice(1,3)
-// console.log(ar11)
+ar11.splice(1,3)
+console.log(ar11)
 
 ar11.splice(2,1,'sir');
 console.log(ar11)
