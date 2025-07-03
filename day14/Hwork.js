@@ -1,7 +1,7 @@
 // we have unordered  list having 10 li. the even list have bgc = red
 
 let evenList = document.querySelectorAll('li')
-for(var i=0;i<10;i++){
+for(var i=1;i<10;i++){
    if(i%2===0){
     evenList[i].style.backgroundColor = 'red'
    }
