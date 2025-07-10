@@ -31,3 +31,9 @@ btn3.addEventListener('click',()=>{
     let wr = document.querySelector('#wrapper')
     wr.classList.toggle('main')
 })
+
+let btn5 = document.querySelector('.btn3')
+btn3.addEventListener('click',()=>{
+    let wr = document.querySelector('#wrapper')
+    wr.classList.toggle('main')
+})
