@@ -7,7 +7,10 @@ let company = {
     foundedBy:["Steve Jobs","Steve Wozniak"],
      ceo:"Steve Jobs",
     toString:function(){
-      return `<strong>name:</strong>${company.name}<br>`;
+      return `<strong>name:</strong>${company.name}<br>
+               <strong>Foundation Year:</strong>${company.foundationYear}<br>
+               <strong>Founders:</strong>${company.foundedBy.join(",")}<br>
+               `;
     }
 
 }
