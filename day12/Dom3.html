@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function operate(){
+            let nav2 = document.getElementById('#nav2');
+            let ListLi = nav2.querySelectorAll("li");
+      ListLi.forEach((li)=>{
+        console.log(li);
+      })
+        }
+      
+    </script>
+</head>
+<body>
+<h2>Welcome To SCA</h2>
+<h3>Our Mission</h3>
+<p>
+The mission of the SHARMA COMPUTER ACADEMY is to provide the foundation for lifelong learning
+</p>
+
+<div class="highlight">
+  <h3>Our Courses</h3>
+    <ul id="nav1">
+       <li>C</li>
+       <li>C++</li>
+       <li>Python</li>
+       <li>Django</li>
+       <li>MERN</li>
+       <li>Java</li> 
+       <li>Oracle</li>
+    </ul>
+
+</div>
+  <H3>Our Trainers</H3>
+  <p class="highlight">
+      Our trainers have more than 15 years of experience in IT various domains
+  </p>
+  <ul id="nav2">
+     <li>Mr. Sachin Kapoor</li>
+     <li>Mr. Paramjeet Singh</li>
+     <li>Ms. Seema Sharma</li>
+     <li>Mr. Sanjeev Sharma</li>
+  </ul>
+  <h3>Important links</h3>
+     <a href="http://www.scabhopal.in">Our website</a><br />
+     <a href="https://www.facebook.com/scalive.in">SCA Page</a><br>
+     <input type="button" value="Click me" onclick="operate()"/>
+
+</body>
+</html>
