@@ -22,7 +22,8 @@ var a=5;
     a = 10;
     console.log(a)
 }
-console.log(a)
+console.log(cccc)
 // but with const used variable neither redeclaraton nor re-assignment is possible;
+let cccc = 5;
 }
 Aniket();
