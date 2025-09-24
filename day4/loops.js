@@ -1,10 +1,10 @@
 
 // do While loop
-var n =1;
-do{
-    console.log(n)
-    n++;
-}while(n<11);
+// var n =1;
+// do{
+//     console.log(n)
+//     n++;
+// }while(n<11);
 
 // write a program to print table of number 
 
@@ -26,17 +26,27 @@ do{
 
 // write a program to print reverser table using while loop
 // var i=10;
+// var num = parseInt(prompt("enter a  number"))
+// while(i>0){
+//     console.log(num*i)
+//     i--
+
+// }
+// write a program to print only odd numbers between  20 to 1
+// var num=20;
+// while(num>0){
+//     if(num%2==1){
+//     console.log(num)
+//     }
+//     num--;
+// }
+
+
+
 var num = parseInt(prompt("enter a  number"))
+var i=1;
 while(i>0){
     console.log(num*i)
-    i--
+    i++
 
-}
-// write a program to print only odd numbers between  20 to 1
-var num=20;
-while(num>0){
-    if(num%2==1){
-    console.log(num)
-    }
-    num--;
 }
