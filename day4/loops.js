@@ -43,10 +43,31 @@
 
 
 
-var num = parseInt(prompt("enter a  number"))
-var i=1;
-while(i>0){
-    console.log(num*i)
-    i++
+// var num = parseInt(prompt("enter a  number"))
+// var i=1;
+// while(i<=10){
+//     console.log(num*i)
+//     i++
 
+// }
+
+
+// wap to print sum of all numbers between 15 to 1
+// var i =15
+// var sum = 0
+// while(i>0)
+// {
+//     sum+=i--
+
+// }
+// console.log(sum);
+
+
+// wap to sum of all odd number between 1 to 15
+var sum=0
+for(var i=1;i<=15;i++){
+    if(i%2==1){
+        sum+=i;
+    }
 }
+console.log(sum)

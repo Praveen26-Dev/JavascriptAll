@@ -32,3 +32,12 @@
 //    }
 //    document.write("<br>")
 // }
+
+for(let r=0;r<3;r++){
+    for(let c=0;c<5;c++){
+    
+         document.write("*")
+     
+    }
+     document.write("<br>")
+}
