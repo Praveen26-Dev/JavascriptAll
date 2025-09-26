@@ -33,11 +33,29 @@
 //    document.write("<br>")
 // }
 
-for(let r=0;r<3;r++){
-    for(let c=0;c<5;c++){
+// for(let r=0;r<4;r++){
+//     for(let c=0;c<4;c++){
+//          if(c<=r){
+//          document.write("*")
+//          }
+//          else{
+//             document.write(" ")
+//          }
     
-         document.write("*")
-     
+// }
+//  document.write("<br>")
+// }
+
+for(let r=0;r<5;r++){
+    for(let c=0;c<5;c++){
+         if(r==0||c==0||r==4||c==4){
+         document.write("* ")
+         }
+         else{
+            document.write("&nbsp&nbsp&nbsp")
+         }
     }
-     document.write("<br>")
+ document.write("<br>")
 }
+
+

@@ -22,12 +22,12 @@
 // demo()
 
 
-function add(){
-    let a = 3
-    let b = 5
-    console.log(a+b)
-}
-add()
+// function add(){
+//     let a = 3
+//     let b = 5
+//     console.log(a+b)
+// }
+// add()
 
 // write a program to print any number using funnction
 // type 1 -- 
@@ -59,22 +59,47 @@ add()
 // console.log(c);
 
 
-function cloud(a){
- console.log(a*a*a)
-}
-cloud(10)
-// write a program to check number is positive or negative using function type 2
-var num = parseInt(prompt("enter a number "))
-chackNum(num)
- function chackNum(n){
-    if(n>0){
-        console.log("positive")
+// function cloud(a){
+//  console.log(a*a*a)
+// }
+// cloud(10)
+// // write a program to check number is positive or negative using function type 2
+// var num = parseInt(prompt("enter a number "))
+// chackNum(num)
+//  function chackNum(n){
+//     if(n>0){
+//         console.log("positive")
+//     }
+//     else{
+//         console.log("negative")
+//     }
+//  }
+
+// function Area(){
+//     let l=Number(prompt("Enter Length"));
+//     let b =Number(prompt("Enter breadth"));
+    
+//         alert("Area of Rectangle  "  + l*b)
+    
+// }
+
+// Area();
+
+function PrintNum(){
+    let n = Number(prompt("Enter a number between 1 to 20"));
+    if(n>=11&&n<=20){
+        for(let i=20;i>=1;i--){
+            console.log(i);
+        }
+    }
+    else if(n<=10 && n>=1){
+        for(let i=10;i>=n;i--){
+            console.log(i);
+        }
     }
     else{
-        console.log("negative")
+        console.log("wrong input");
     }
- }
-
-
-
+}
+PrintNum()
 
