@@ -39,7 +39,11 @@
 // }
 // table()
 
-// types of function -> user defined functions and predefined functions
+// types of function -> 
+
+// 2 types ---->
+// user defined functions and predefined functions
+
 // A) user defined functions -> 
 // 
 // 1. without argument and no return value
@@ -85,21 +89,48 @@
 
 // Area();
 
-function PrintNum(){
-    let n = Number(prompt("Enter a number between 1 to 20"));
-    if(n>=11&&n<=20){
-        for(let i=20;i>=1;i--){
-            console.log(i);
-        }
-    }
-    else if(n<=10 && n>=1){
-        for(let i=10;i>=n;i--){
-            console.log(i);
-        }
-    }
-    else{
-        console.log("wrong input");
+// function PrintNum(){
+//     let n = Number(prompt("Enter a number between 1 to 20"));
+//     if(n>=11&&n<=20){
+//         for(let i=20;i>=1;i--){
+//             console.log(i);
+//         }
+//     }
+//     else if(n<=10 && n>=1){
+//         for(let i=10;i>=n;i--){
+//             console.log(i);
+//         }
+//     }
+//     else{
+//         console.log("wrong input");
+//     }
+// }
+// PrintNum()
+
+
+// wap take integer input from user to check even or odd with argument and no return 
+// let a = Number(prompt("enter number"));
+// EvenOdd(a);
+// function EvenOdd(a){
+//     if(a%2==0){
+//         alert("Number is even ");
+//     }
+//     else{
+//         alert("Odd")
+//     }
+// }
+
+// wap to print a reverse a table of any number 
+let n = Number(prompt("Enter number"))
+RevTable(n);
+
+function RevTable(n){
+    for(let i=10;i>=1;i--){
+        console.log(n*i)
     }
 }
-PrintNum()
+
+
+
+
 

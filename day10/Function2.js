@@ -1,22 +1,21 @@
 // type 3 -- with arg and with return value
-function demo(a){
-    return a+a
-}
+// function demo(a){
+//     return a+a
+// }
 
-console.log(demo(10))
+// console.log(demo(10))
 
-let b = demo(30)
-console.log(3.14*b*b)
+// let b = demo(30)
+// console.log(3.14*b*b)
 
 // type 4 -> without arg and return value
 
 
-function demo1(){
-    var a = 25;
-    return a*a
-}
-console.log(demo1());
-
+// function demo1(){
+//     var a = 25;
+//     return a*a
+// }
+// console.log(demo1());
 
 //H.W.->  What is ES6.
 // Arrow Function -> if we want use one liner function 
