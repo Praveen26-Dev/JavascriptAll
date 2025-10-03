@@ -30,6 +30,11 @@ console.log(demo1());
 //               2.  () => ()
             //   3.  () =>
             //   4.     =>
+            //   5.     => ()
+            //   6.     =>{ return }  
+            // if we want to make a function without argument and parameter than arrow function must contain "()" this symbol
+            // and if we want multiple line of code in arrow function than "{}" symbol is used
+
 // let arrow = ()=>{
 //     return console.log("hii")
 // }
