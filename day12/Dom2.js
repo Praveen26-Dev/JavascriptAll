@@ -1,7 +1,27 @@
 let h1 = document.getElementById('h1')
-h1.style.backgroundColor = "Red"
+h1.innerHTML='<i>Hii from JS</i>'
+
+h1.style.backgroundColor = "brown"
 
 h1.style.color='White'
 
+h1.style.padding="50px"
+
+
+
+
+
+
+
+
+
+
+
+
 let img = document.getElementById('img')
-img.src="https://images.unsplash.com/photo-1749741340022-434e924e8312?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+img.setAttribute('src','https://plus.unsplash.com/premium_photo-1670530034951-b7d0428d6c9c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8')
+
+
+
+
+
