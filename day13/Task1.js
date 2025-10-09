@@ -9,5 +9,7 @@ function minusOne(){
     let h2 = document.getElementById('h2')
     h2.textContent= --count;
     }
-    
+    else{
+        alert("Less than zero ")
+    }
 }

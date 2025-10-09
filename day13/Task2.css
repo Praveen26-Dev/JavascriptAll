@@ -1,0 +1,56 @@
+/* #div{
+    height: 90px;
+    width: 150px;
+    background-color: green;
+    border: 3px solid black;
+    display: inline-block;
+    align-content: center;
+}
+#h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+ */
+#mbl{
+    height: 90px;
+    width: 150px;
+    background-color: green;
+    border: 3px solid black;
+    /* display: inline-block; */
+    align-content: center;
+    text-align: center;
+    margin: 5px;
+}
+#lpt{
+    height: 90px;
+    width: 150px;
+    background-color: rgb(210, 192, 27);
+    border: 3px solid black;
+    /* display: inline-block; */
+    align-content: center;
+    text-align: center;
+    margin: 5px;
+
+
+}
+
+#tlt{
+    height: 90px;
+    width: 150px;
+    background-color: green;
+    border: 3px solid black;
+    /* display: inline-block; */
+    align-content: center;
+    text-align: center;
+    margin: 5px;
+}
