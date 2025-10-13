@@ -12,5 +12,4 @@ function changeImg(){
     img.src = "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmlrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=1000";
     h3.innerHTML="Bike"
     h3.style.color = "pink";
-
 }
