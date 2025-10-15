@@ -1,0 +1,17 @@
+div{
+    height: 500px;
+    width: 500px;
+    display: none;
+}
+div img{
+    height: 100%;
+    width: 80%;
+}
+
+form{
+    display: none;
+    margin: 50px;
+}
+button{
+    margin-top: 600px;
+}
