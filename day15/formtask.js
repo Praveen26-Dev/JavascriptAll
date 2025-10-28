@@ -6,7 +6,9 @@ function fun(){
     let rno = document.querySelector('#rno').value
 
     let div = document.querySelector('#data')
-    div.textContent = Sname + "," + age + " ," + contact + " , " + cls + " ," + rno
+    div.innerHTML = Sname + "," + age + " ," + contact + " , " + cls + " ," + rno
 
     return false
 }
+
+// WAP Take 5 input from user and print
