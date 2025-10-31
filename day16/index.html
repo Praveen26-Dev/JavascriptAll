@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Handling</title>
 </head>
 <body>
-    <h1>Form ka hai aak 2 din</h1>
+    <h1>Form handling ka hai aak 2 din</h1>
 
     <form action="" onsubmit="return validate()">
         <label for="">Name</label>
         <input type="text" placeholder="Enter your name" id="name">
         <br>
+        <span id="nameError"></span>
+        <br>
         <label for="">City</label>
         <input type="text" name="" id="city" placeholder="Enter your city">
         <br>
-        <label for="">Contact</label>
-        <input type="text" name="" id="contact" placeholder="Enter contact">
+        <span id="cityError"></span>
         <br>
+        <!-- <label for="">Contact</label>
+        <input type="text" name="" id="contact" placeholder="Enter contact">
+        <br> -->
         <label for="">Age</label>
-        <input type="text" placeholder="Enter your age" id="age">
+        <input type="text" placeholder="Enter your age" id="age"><br>
+        <span id="ageError"></span>
+
         <br>
         <label for="">Email</label>
-        <input type="text" id="email" placeholder="Enter email">
+        <input type="text" id="email" placeholder="Enter email"><br>
+        <span id="emailError"></span>
+
         <br>
         <label for="">Password</label>
-        <input type="text" name="" id="password" placeholder="Enter password">
+        <input type="text" name="" id="password" placeholder="Enter password"><br>
+        <span id="passwordError"></span>
+
         <br><br>
         <input type="submit">
     </form>
