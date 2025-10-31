@@ -18,16 +18,16 @@ else if(city==''){
    document.querySelector('#city').focus()
    return false;
 }
-// else if(contact==null){
-//     alert("Please Enter Your contact")
-//    document.querySelector('#contact').focus()
-//    return false;
-// }
-// else if(contact.length>10||contact.length<10){
-//    alert("Please Enter 10 digits only")
-//    document.querySelector('#contact').focus()
-//    return false;
-// }
+else if(contact==null){
+    alert("Please Enter Your contact")
+   document.querySelector('#contact').focus()
+   return false;
+}
+else if(contact.length>10||contact.length<10){
+   alert("Please Enter 10 digits only")
+   document.querySelector('#contact').focus()
+   return false;
+}
 else if(age.length>2){
    document.querySelector('#ageError').innerHTML="please fill age less than 100"
    document.querySelector('#age').focus()
@@ -62,14 +62,15 @@ else if(password==''){
 //    return false
 //  }
 
-//  else if(! (email.includes('@gmail.com'))||email.includes('@yahoo.com')){
-//    alert('Enter gmail.com or yahoo.com in email')
-//    document.querySelector('#email').focus()
-//    return false
-//  }
-//   else if(!(password.match(/[|+_*/@^&#]/))){
-//    alert('Enter correct password')
-//    document.querySelector('#password').focus()
-//    return false
-//  }
+ else if(!(email.includes('@gmail.com')||email.includes('@yahoo.com'))){
+   alert('Enter gmail.com or yahoo.com in email')
+   document.querySelector('#email').focus()
+   return false
+ }
+  else if(!(password.match(/[|+_*/@^&#]/))){
+   alert('Enter  Special Character in password')
+   document.querySelector('#password').focus()
+   return false
+   
+ }
 }
