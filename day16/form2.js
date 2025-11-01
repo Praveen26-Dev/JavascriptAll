@@ -62,15 +62,14 @@ else if(password==''){
 //    return false
 //  }
 
- else if(!(email.includes('@gmail.com')||email.includes('@yahoo.com'))){
-   alert('Enter gmail.com or yahoo.com in email')
-   document.querySelector('#email').focus()
-   return false
- }
-  else if(!(password.match(/[|+_*/@^&#]/))){
-   alert('Enter  Special Character in password')
-   document.querySelector('#password').focus()
-   return false
-   
- }
+else if (!(email.includes('@gmail.com') || email.includes('@yahoo.com'))) {
+  alert('Enter gmail.com or yahoo.com in email');
+  document.querySelector('#email').focus();
+  return false;
+}
+else if (!(password.match(/[|+_*/@^&#]/))) {
+  alert('Enter Special Character in password');
+  document.querySelector('#password').focus();
+  return false;
+}
 }
