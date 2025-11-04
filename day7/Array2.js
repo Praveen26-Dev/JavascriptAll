@@ -1,4 +1,4 @@
-// let ar = ["Praveen ",21,'bhopal',5.8]
+let ar = ["Praveen ",21,'bhopal',5.8]
 // console.log(ar)
 // for(let v of ar){
 //     console.log(v)
@@ -30,13 +30,13 @@
 // var a = ar.slice(1,3)
 // console.log(a)
 
-// // splice is used for removing element from middle of array
-// let ar11 = ["Praveen ",21,'bhopal',5.8]
-// ar11.splice(1,3)
+// splice is used for removing element from middle of array
+let ar11 = ["Praveen ",21,'bhopal',5.8]
+// ar11.splice(1,2)
 // console.log(ar11)
 
-// ar11.splice(2,1,'sir');
-// console.log(ar11)
+ar11.splice(2,1,'sir');
+console.log(ar11)
 
 
 // Questions based on above functions of arrays
