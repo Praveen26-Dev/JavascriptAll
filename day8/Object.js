@@ -48,3 +48,36 @@
 //     console.log(v , ':', emp[v])
 // }
 // print only one key (top key only)
+
+// let studentDetails =[
+//     {name:"Raaj",age:12},
+//     {name:"Raju",age:22},
+//     {name:"Pappu",age:16},
+//     {name:"jaggu",age:42},
+//     {name:"Sonam",age:32},
+//     {name:"Bajwa",age:22},
+//     {name:"Ramu",age:12},
+//     {name:"Sonu",age:12},
+//     {name:"tittu",age:34},
+// ]
+
+
+// for(let v of studentDetails){
+//     console.log(v.name+" "+v.age);
+// }
+
+let emp={
+    name:"Rahul",
+    salary:[21000,30000,25000],
+    age:21,
+    add:function(){
+        return 2+3
+    },
+    emp_account:{
+     bank_name:"SBI",
+     acc_no:124565432
+    }
+}
+console.log(emp.add())
+console.log(emp.salary[2])
+console.log(emp.emp_account.bank_name)
