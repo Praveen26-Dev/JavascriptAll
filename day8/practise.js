@@ -25,28 +25,28 @@
 
 // console.log(emp["full name"]);
 // console.log(emp.age)
-let emp_name=prompt("Enter a name ")
-let age=prompt("Enter a age ")
-let contact=prompt("Enter a contact ")
+// let emp_name=prompt("Enter a name ")
+// let age=prompt("Enter a age ")
+// let contact=prompt("Enter a contact ")
 
 
-let emp={
-    emp_name:"",
-    emp_age:"",
-    emp_contact:""
+// let emp={
+//     emp_name:"",
+//     emp_age:"",
+//     emp_contact:""
 
-}
-emp.emp_name=emp_name;
-emp.emp_age=age
-emp.emp_contact=contact
+// }
+// emp.emp_name=emp_name;
+// emp.emp_age=age
+// emp.emp_contact=contact
 
-console.log(emp.emp_name+" "+
-emp.emp_age+" "+
-emp.emp_contact)
-for (const key in emp) {
-    console.log(key)
+// console.log(emp.emp_name+" "+
+// emp.emp_age+" "+
+// emp.emp_contact)
+// for (const key in emp) {
+//     console.log(key)
     
     
-}
-let k =Object.keys(emp)
-console.log(k)
+// }
+// let k =Object.keys(emp)
+// console.log(k)
