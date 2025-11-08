@@ -11,3 +11,24 @@ localStorage.setItem("userAge","21")
 localStorage.setItem("userAdd","Bhopal")
 localStorage.setItem("userBlg","B+")
 localStorage.setItem("userCon","9876543")
+
+//getItem()
+
+let age =localStorage.getItem("userAge")
+console.log(age)
+
+// removeItem()
+
+// localStorage.removeItem("userBlg")
+
+// clearItem
+
+// localStorage.clear()
+let person={
+    name:"praveen",
+    age:20,
+    blg:"B+"
+}
+localStorage.setItem("userData",JSON.stringify(person))
+let data=JSON.parse(localStorage.getItem("userData"))
+console.log(data)
