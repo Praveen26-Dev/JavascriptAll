@@ -20,23 +20,33 @@ function fun(){
      if(ename==''){
       document.querySelector("#naspan").innerHTML="<i>Enter Name</i>"
       document.querySelector('#name').focus()
-      return false;
+      return false
     } 
     else if(email==''){
         document.querySelector("#emspan").innerHTML="Enter email"
         document.querySelector('#email').focus()
-        return false;
+       return false 
     }
-    else if(!email.includes("@gamil.com")){
+    else if(!email.includes("@gmail.com")){
         document.querySelector("#emspan").innerHTML="<i>Enter Correct email</i>"
         document.querySelector('#email').focus()
-        return false;
-    }
+      return false 
+      }
+    else if(mob==''){
 
-    else if(pass.match(/[!@#$%^&*()+]/)){
-   document.querySelector("#paspan").innerHTML="Enter Special Character ";
-    document.querySelector('#paspan').focus()
-  return false
+       document.querySelector("#mospan").innerHTML="<i>Enter Mobile</i>";
+       document.querySelector("#mob").focus()
+       return false
+    }
+    else if(pass==''){
+      document.querySelector("#paspan").innerHTML="<i>Enter Password</i>";
+      document.querySelector('#pass').focus()
+      return false
+    }
+    else if(!pass.match((/[|!@#$%^&*()+]/))){
+          document.querySelector("#paspan").innerHTML="Enter Special Character ";
+          document.querySelector('#pass').focus()
+          return false
     }
     return false;
 }
